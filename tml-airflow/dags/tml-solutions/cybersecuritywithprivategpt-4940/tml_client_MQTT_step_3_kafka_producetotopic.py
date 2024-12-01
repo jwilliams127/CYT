@@ -21,8 +21,8 @@ sys.dont_write_bytecode = True
 
 
 def mqttconnection():
-     username="<Enter MQTT username>"
-     password="<Enter MQTT password>"
+     username="james.williams.to@gmail.com"
+     password="cyt160.NAA"
 
      client = paho.Client(paho.CallbackAPIVersion.VERSION2)
      mqttBroker = default_args['mqtt_broker'] 
